@@ -58,7 +58,7 @@ class CeilingFill(wx.Panel, DefaultOperationUI):
         self._block_define.Bind(EVT_PICK, self._on_pick_block_button)
         self._sizer.Add(self._block_define, 1, wx.ALL | wx.ALIGN_CENTRE_HORIZONTAL, 5)
 
-        self._run_button = wx.Button(self, label="検索開始")
+        self._run_button = wx.Button(self, label="実行")
         self._run_button.Bind(wx.EVT_BUTTON, self._run_operation)
         self._sizer.Add(self._run_button, 0, wx.ALL | wx.ALIGN_CENTRE_HORIZONTAL, 5)
 
